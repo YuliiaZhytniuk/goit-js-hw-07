@@ -1,0 +1,47 @@
+#controls {
+  background: #f6f6fe;
+  border-radius: 8px;
+padding: 32px;
+width: 486px;
+height: 104px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+input { 
+  border: 1px solid #808080;
+border-radius: 8px;
+padding: 8px;
+width: 150px;
+height: 40px;
+color: #2e2f42;
+}
+
+button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+}
+
+.first-btn {
+  background: #4e75ff;
+}
+
+.second-btn {
+  background: #ff4e4e;
+}  
+
+
+#boxes {
+  background: #f6f6fe;
+  border-radius: 8px;
+padding: 32px;
+width: 486px;
+height: 134px;
+display: flex;
+justify-content:space-between;
+}
