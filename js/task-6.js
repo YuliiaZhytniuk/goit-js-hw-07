@@ -18,16 +18,16 @@ createBtn.addEventListener('click', () => {
 destroyBtn.addEventListener('click', destroyBoxes);
 
 function createBoxes(amount) {
-
+  const fragment = document.createDocumentFragment();
   for (let i = 0; i < amount; i++) {
     const box = document.createElement('div');
     const size = 30 + i * 10;
     box.style.width = `${size}px`;
     box.style.height = `${size}px`;
     box.style.backgroundColor = getRandomHexColor();
-
-    boxes.appendChild(box);
+    fragment.appendChild(box);
   }
+  boxes.appendChild(fragment);
 }
 
 function destroyBoxes() {

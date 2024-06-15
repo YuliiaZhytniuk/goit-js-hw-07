@@ -17,10 +17,11 @@ function handlerSubmit(event) {
     const registerForm = {
       email: email,
       password: password,
-    }
+    };
+    loginForm.reset();
   };
     
   console.log(registerForm);
-  loginForm.reset();
+  
 }
 
