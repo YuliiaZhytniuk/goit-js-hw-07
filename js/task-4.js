@@ -19,9 +19,8 @@ function handlerSubmit(event) {
       password: password,
     };
     loginForm.reset();
+    console.log(registerForm);
   };
     
-  console.log(registerForm);
-  
 }
 
